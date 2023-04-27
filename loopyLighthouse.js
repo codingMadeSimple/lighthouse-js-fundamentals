@@ -1,12 +1,11 @@
-
 var num;
-for(num=100; num<=200; num++){
-  if (num%3===0 && num%4===0){
+for(num = 100; num <= 200; num++){
+  if (num % 3 === 0 && num % 4 === 0){
     console.log("LoopyLighthouse");
-  } else if(num%4===0){
+  } else if(num % 4 === 0){
     console.log("Lighthouse");
-  } else if (num%3===0){
+  } else if (num % 3 === 0){
     console.log("Loopy");
-  } else{console.log(num)}
+  } else { console.log(num) }
   
 }
