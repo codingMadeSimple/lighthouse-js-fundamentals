@@ -1,7 +1,15 @@
-function findAverage(x, y) {
-  var answer = (x + y) / 2;
+function findAverage(var2, var2) {
+  var answer = (var2 + var2) / 2;
   return answer;
 }
 
 var avg = findAverage(5, 9);
-console.log(avg);
+
+function add(x, y){
+  return x + y;
+}
+
+function divideByTwo(num) {
+  return num / 2;
+
+}
